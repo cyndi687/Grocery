@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+
+     
+}
+nav{
+    margin-top: 5px;
+
+}
+nav ul li{
+    display:inline;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+nav ul a {
+    color: #000;
+ text-decoration: none;
+  font-size: 17px; 
+}
+  a#Home:active{
+content:'';
+    color: green;
+
+}
+#logo div{
+ justify-content: center;
+    /* align-content: center; */
+}
+#logo img{
+    width: 50px;
+    
+}
+#home:active{
+    color: green;
+}
+button{
+    background-color: green;
+    color: white;
+    padding:  5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px 0  50px 0;
+}
+
+.text{
+    width: 50%;
+}
+.text h1{
+    line-height: 2.5rem;
+    font-size: 30px;
+    margin: 0px 0 0 50px;
+    text-align: justify;
+    
+}
+.text h1 img{
+    width: 30px;
+}
+.text p{
+text-align: justify;
+margin: 20px 0 0 50px;
+}
+
+.text span{
+    color: rgb(3, 146, 3);
+}
+#purchase{
+    display: flex;
+     margin: 20px 0 0 50px;
+     
+}
+#puchase button{
+    border-radius: 2px;
+}
+
+    
+#play i{
+    margin-left: 15px;
+    color: orange;
+    font-size: 25px;
+
+}
+#i{
+    color: #000;
+    margin-left: 10px;
+
+    
+    
+}
+ #fa{
+position: absolute;
+top: 15rem;
+left: -30px;
+background-color:beige;
+padding: 10px 0 0 20px;
+font-size: 25px;
+
+}
+#fa i{
+    margin-left: -12px;
+    color: black;
+}
+
+.image{
+ position: relative;   
+}
+.image img{
+    width: 40vw;
+}
+
+#delivery{
+    background-color: orange;
+    color: #fff;
+    justify-content: space-between;
+    width: 100px;
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 90%;
+    /* justify-content: center; */
+    align-content: center;
+    /* background-color: pink; */
+
+}
+
+.middle img{
+    width: 3vw;
+    /* margin-bottom: 10px; */
+    
+}
+.categories{
+    display: flex;
+    /* justify-items: center; */
+    align-items:center ;
+
+}
+.middle button{
+    background-color: transparent;
+    color: green;
+    border: 2px solid green ;
+    margin-top: 8px;
+}
+.middle button span{
+    margin-right: 10px;
+    font-weight: 500;
+}
+.middle button i{
+color: green;
+font-size: 5px;
+}
+.boxes{
+    display: flex;
+    margin:20px 30px 0 40px;
+}
+.box{
+    width: 20%;
+    margin: auto;
+    text-align: center; 
+    padding: 40px 0 10px; 
+}
+.box img{
+    width: 40%;
+}
+.box p{
+    margin-top: 10px;
+}
+#meat{
+    background-color: rgb(243, 209, 164);
+}
+#vegetable{
+    background-color: rgb(241, 188, 241);
+}
+#fresh-nuts{
+    background-color: rgb(200, 239, 161);
+}
+#spices{
+    background-color: rgb(247, 247, 180);
+}
+.bottom{
+    background-image:linear-gradient(to right,rgb(251, 230, 206),rgb(255,255,255),rgba(251, 230, 206) );
+    margin-top: 40px;
+
+}
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+}
+.bottom img{
+    width:40vw;
+    filter: drop-shadow(40px 40px 20px rgb(180, 239, 180));  
+}
+.best{
+    margin-top: 10px;
+
+}
+.best h1, p{
+    margin: 20px 0;
+}
+#best{
+ margin-top: 30px;
+}
+#best p{
+    margin-top: 10px;
+}
+#best i{
+    color: green;
+    margin-right
+    : 5px;
+}
+#best button{
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: rgb(3, 48, 3);
+    color: white;
+    padding: 10px;
+}
+footer i{
+    margin:10px 5px 0 0;
+}
+footer h4{
+    margin-top: 30px;
+}
+ #para{
+    line-height: 20px;
+}
+footer img{
+    width: 4vw;
+    margin-top: 20px;
+    /* color: white; */
+}
+#contact-us h4{
+    margin-bottom: 10px ;
+}
+#contact-us div i{
+    margin: 10px;
+    /* text-align:justify; */
+}
+@media(max-width:700px){
+
+    nav ul li{
+        display:block;
+    }
+    nav ul a{
+        /* font-size: 10px; */
+    }
+    nav{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        /* right: -200px; */
+        /* z-index: 2; */
+        text-align: left
+    }
+    #logo img{
+        width: 10px;
+    }
+    }
